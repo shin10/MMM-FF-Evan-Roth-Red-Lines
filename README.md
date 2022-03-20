@@ -6,8 +6,9 @@
 
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc)
 
-A lazy wrapper module for Evan Roth's artwork "Red Lines" (2018).
-If you wonder what it is or why it's important, head to
+A module for [MagicMirror²](https://github.com/MichMich/MagicMirror) presenting your most treasured [cheat sheets](https://cht.sh).
+
+A module for [MagicMirror²](https://github.com/MichMich/MagicMirror) wrapping Evan Roth's artwork "Red Lines" (2018). If you wonder what it is or why it's important, head to
 
 https://www.redlines.network/
 
