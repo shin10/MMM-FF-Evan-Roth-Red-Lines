@@ -13,6 +13,7 @@ Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
     width: null,
     height: null,
     animationSpeed: 1000,
+    pointerEvents: "none",
     removeOnSuspension: false
   },
 
@@ -57,6 +58,7 @@ Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
     iframe.classList.add("red-lines-iframe");
     iframe.classList.toggle("grayscale", this.config.grayscale);
     iframe.classList.toggle("inverted", this.config.inverted);
+    iframe.style.pointerEvents = this.config.pointerEvents;
 
     iframe.setAttribute("src", "https://s33.806901e151.299299.com.au/redlines");
     wrapper.appendChild(iframe);

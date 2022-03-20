@@ -33,6 +33,7 @@ modules: [
       height: "100%",
       grayscale: false,
       inverted: false,
+      pointerEvents: "none",
       removeOnSuspension: true
     }
   }
@@ -42,3 +43,5 @@ modules: [
 `removeOnSuspension` will remove the iframe when the module is suspended and add it back again when resumed. That may save resources but also skip fading if you're for example using the MMM-pages module.
 
 **Also please note that the project is using external resources and a p2p netring.**
+
+The `pointerEvents` are set to `none` by default to allow touch gesture recognition from other MagicMirror² modules. If you rather like to use the original UI of the piece, you can change it to what you like best.
