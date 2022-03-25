@@ -2,7 +2,7 @@
   <source src="https://www.redlines.network/videos/PHONE%20COMPUTER_02_SQ-rf24.mp4" type="video/mp4">
 </video>
 
-# MMM-Ff-Evan-Roth-Red-Lines
+# MMM-FF-Evan-Roth-Red-Lines
 
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc)
 
@@ -17,7 +17,7 @@ or check out installations and talks on [youtube](https://www.youtube.com/result
 ## Installation
 
 ```
-git clone https://github.com/shin10/MMM-Ff-Evan-Roth-Red-Lines.git
+git clone https://github.com/shin10/MMM-FF-Evan-Roth-Red-Lines.git
 ```
 
 ## Configuration
@@ -25,7 +25,7 @@ git clone https://github.com/shin10/MMM-Ff-Evan-Roth-Red-Lines.git
 ```javascript
 modules: [
   {
-    module: "MMM-Ff-Evan-Roth-Red-Lines",
+    module: "MMM-FF-Evan-Roth-Red-Lines",
     position: "fullscreen_below",
     hiddenOnStartup: true,
     disabled: false,

@@ -1,11 +1,11 @@
 /* Magic Mirror
- * Module: MMM-Ff-Evan-Roth-Red-Lines
+ * Module: MMM-FF-Evan-Roth-Red-Lines
  *
  * By Michael Trenkler
  * ISC Licensed.
  */
 
-Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
+Module.register("MMM-FF-Evan-Roth-Red-Lines", {
   defaults: {
     grayscale: false,
     inverted: false,
@@ -19,7 +19,7 @@ Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
 
   // Define required styles.
   getStyles: function () {
-    return [this.file("./styles/MMM-Ff-Evan-Roth-Red-Lines.css")];
+    return [this.file("./styles/MMM-FF-Evan-Roth-Red-Lines.css")];
   },
 
   getDom: function () {
@@ -41,11 +41,14 @@ Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
   suspend: function () {
     this.suspended = true;
     if (!this.config.removeOnSuspension) return;
+    document.getElementById(this.identifier)?.classList.add("suspended");
     var iframe = document.getElementsByClassName("red-lines-iframe")[0];
     if (iframe) setTimeout(() => iframe.remove(), this.config.animationSpeed);
   },
 
   resume: function () {
+    document.getElementById(this.identifier)?.classList.remove("suspended");
+
     if (this.suspended === false) return;
     this.suspended = false;
 
