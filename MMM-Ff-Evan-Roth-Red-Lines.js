@@ -19,7 +19,7 @@ Module.register("MMM-Ff-Evan-Roth-Red-Lines", {
 
   // Define required styles.
   getStyles: function () {
-    return ["MMM-Ff-Evan-Roth-Red-Lines.css"];
+    return [this.file("./styles/MMM-Ff-Evan-Roth-Red-Lines.css")];
   },
 
   getDom: function () {

@@ -1,0 +1,62 @@
+/* Magic Mirror
+ * Module: MMM-Ff-Evan-Roth-Red-Lines
+ *
+ * By Michael Trenkler
+ * ISC Licensed.
+ */
+
+.MMM-Ff-Evan-Roth-Red-Lines {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .module-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .red-lines-wrapper,
+  .red-lines-iframe {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .red-lines-wrapper {
+    position: relative;
+  }
+
+  .red-lines-iframe {
+    border: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &.grayscale {
+      filter: grayscale(1);
+
+      &.inverted {
+        filter: grayscale(1) invert(1);
+      }
+    }
+
+    &.inverted {
+      filter: invert(1);
+    }
+  }
+
+  .red-lines-vignette {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+}

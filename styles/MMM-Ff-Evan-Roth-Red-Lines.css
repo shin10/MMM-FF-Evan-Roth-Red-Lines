@@ -4,18 +4,19 @@
  * By Michael Trenkler
  * ISC Licensed.
  */
-
 .MMM-Ff-Evan-Roth-Red-Lines {
   position: absolute !important;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.MMM-Ff-Evan-Roth-Red-Lines,
 .MMM-Ff-Evan-Roth-Red-Lines .module-content {
   width: 100%;
   height: 100%;
 }
+
 .MMM-Ff-Evan-Roth-Red-Lines .red-lines-wrapper,
 .MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe {
   width: 100%;
@@ -37,6 +38,21 @@
   height: 100%;
 }
 
+.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.grayscale {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.grayscale.inverted {
+  -webkit-filter: grayscale(1) invert(1);
+          filter: grayscale(1) invert(1);
+}
+
+.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.inverted {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .MMM-Ff-Evan-Roth-Red-Lines .red-lines-vignette {
   display: block;
   position: absolute;
@@ -46,15 +62,4 @@
   height: 100%;
   z-index: 2;
 }
-
-.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.grayscale {
-  filter: grayscale(1);
-}
-
-.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.inverted {
-  filter: invert(1);
-}
-
-.MMM-Ff-Evan-Roth-Red-Lines .red-lines-iframe.grayscale.inverted {
-  filter: grayscale(1) invert(1);
-}
+/*# sourceMappingURL=MMM-Ff-Evan-Roth-Red-Lines.css.map */
