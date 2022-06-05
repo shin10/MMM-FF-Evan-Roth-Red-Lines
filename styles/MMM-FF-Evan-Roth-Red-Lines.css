@@ -40,17 +40,17 @@
 
 .MMM-FF-Evan-Roth-Red-Lines .red-lines-iframe.grayscale {
   -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .MMM-FF-Evan-Roth-Red-Lines .red-lines-iframe.grayscale.inverted {
   -webkit-filter: grayscale(1) invert(1);
-  filter: grayscale(1) invert(1);
+          filter: grayscale(1) invert(1);
 }
 
 .MMM-FF-Evan-Roth-Red-Lines .red-lines-iframe.inverted {
   -webkit-filter: invert(1);
-  filter: invert(1);
+          filter: invert(1);
 }
 
 .MMM-FF-Evan-Roth-Red-Lines .red-lines-vignette {
